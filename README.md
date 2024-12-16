@@ -47,6 +47,11 @@ pip install -r requirements.txt
 运行流程：
 python main.py
 
+查看结果：
+
+分割结果：\root\seg
+分类结果：\root
+
 
 
 
