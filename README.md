@@ -25,7 +25,15 @@ NumPy：1.21.0
 nibabel: 5.4.0
 
 测试集描述
-本研究将 BraTS2020 数据集用作测试集。BraTS2020（Brain Tumor Segmentation Challenge 2020）是一个用于脑肿瘤多模态 MRI 分割的权威公开数据集，涵盖了多家医疗机构的预手术 MRI 数据。该数据集包含多种 MRI 模态（如 T1、T1ce、T2、FLAIR），其中包含不同等级的胶质瘤（低级别LGG与高级别HGG）。数据集中每例患者均具有专家手动标注的肿瘤区域掩码，标注包含肿瘤内部结构，如坏死/非增强肿瘤核、增强肿瘤区和肿瘤周边水肿区。通过使用该数据集，我们可以在真实且具代表性的临床数据上验证模型的鲁棒性和泛化能
+本研究将 BraTS2020 数据集用作测试集。BraTS2020（Brain Tumor Segmentation Challenge 2020）是一个用于脑肿瘤多模态 MRI 分割的权威公开数据集，涵盖了多家医疗机构的预手术 MRI 数据。该数据集包含多种 MRI 模态（如 T1、T1ce、T2、FLAIR），其中包含不同等级的胶质瘤（低级别LGG与高级别HGG）。数据集中每例患者均具有专家手动标注的肿瘤区域掩码，标注包含肿瘤内部结构，如坏死/非增强肿瘤核、增强肿瘤区和肿瘤周边水肿区。通过使用该数据集，我们可以在真实且具代表性的临床数据上验证模型的鲁棒性和泛化能力
+
+数据链接：通过百度网盘分享的文件：testdata
+链接：https://pan.baidu.com/s/1TaJmURC7BQfV4nXVFFF7jQ?pwd=84ce 
+提取码：84ce 
+
+模型权重链接：通过百度网盘分享的文件：checkpoint
+链接：https://pan.baidu.com/s/13elUVK8Y3kF9GGFGlAKeVw?pwd=7dje 
+提取码：7dje 
 
 环境安装
 
