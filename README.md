@@ -9,4 +9,41 @@
 框架图：
 ![image](https://github.com/user-attachments/assets/0846890a-ff31-4a60-813d-321eb05500d5)
 
+硬件开发环境:
+处理器：Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz
+内存：251GB
+硬盘：15.7TB HDD
+显卡：NVIDIA A100 GPU
+
+软件开发环境：
+Nextflow：22.10.0
+Python：3.8.0
+torch：2.0.1+cu118
+torchvision：0.15.2+cu118
+torchaudio：2.0.2+cu118
+NumPy：1.21.0
+nibabel: 5.4.0
+
+测试集描述
+本研究将 BraTS2020 数据集用作测试集。BraTS2020（Brain Tumor Segmentation Challenge 2020）是一个用于脑肿瘤多模态 MRI 分割的权威公开数据集，涵盖了多家医疗机构的预手术 MRI 数据。该数据集包含多种 MRI 模态（如 T1、T1ce、T2、FLAIR），其中包含不同等级的胶质瘤（低级别LGG与高级别HGG）。数据集中每例患者均具有专家手动标注的肿瘤区域掩码，标注包含肿瘤内部结构，如坏死/非增强肿瘤核、增强肿瘤区和肿瘤周边水肿区。通过使用该数据集，我们可以在真实且具代表性的临床数据上验证模型的鲁棒性和泛化能
+
+环境安装
+
+conda create -n MTTU python=3.9
+conda activate MTTU
+
+安装依赖：
+pip install torch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2
+pip install -r requirements.txt
+
+运行流程：
+python main.py
+
+
+
+
+
+
+
+
 
